@@ -33,31 +33,9 @@ export function DashBoardLandingSuccess(props) {
         datainitial:[], dataNotification:null,LandfromNotifications:true
       }
   );
-  // SpaceXData(); window.history.pushState(undefined, undefined, `your/url/${e.target.value}`)
-  // let fetchDatas = async () => {
-  //   debugger;
-  //   let ApiUrl ; // https://api.spaceXdata.com/v3/launches?limit=100&launch_success=true&land_success=true
-  //   if(props.location.state) {
-  //     if (props.location.state.fromNotifications === true) {
-  //       ApiUrl = true
-  //
-  //     } else if (props.location.state.fromNotifications === false) {
-  //       ApiUrl = false
-  //     } else
-  //       ApiUrl = ''
-  //   }
-  //   const responses = await fetch(
-  //
-  //       `https://api.spacexdata.com/v3/launches?limit=100&launch_success=${ApiUrl}`
-  //   );
-  //   debugger;
-  //   const datas = await responses.json();
-  //   setData({...data,datainitial: datas,dataall: datas});
-  //   // setData({...data,dataall: data});
-  //
-  // };;
+ 
   let fetchDatasLanding = async () => {
-    debugger;
+
     let ApiUrl ; //
     if(props.location.state) {
       if (props.location.state.LandfromNotifications === true) {
@@ -70,7 +48,7 @@ export function DashBoardLandingSuccess(props) {
 
         `https://api.spaceXdata.com/v3/launches?limit=100&launch_success=true&land_success=${ApiUrl}`
     );
-    debugger;
+  
     const datas = await responses.json();
     setData({...data,datainitial: datas,dataall: datas});
     // setData({...data,dataall: data});
@@ -81,18 +59,13 @@ export function DashBoardLandingSuccess(props) {
     fetchDatasLanding();
     // setData({...data,dataNotification: fromNotifications})
   }
-  debugger;
+
   useEffect(() => {
-
-    debugger
-
-
     fetchDatasLanding();
-
   }, []);
 
   let filteryears = (e)=>{
-    debugger;
+
     let year = e.target.innerText ;
     let years;
     if(data) {

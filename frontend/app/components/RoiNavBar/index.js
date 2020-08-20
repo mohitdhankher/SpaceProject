@@ -51,7 +51,7 @@ function RoiNavBar(props) {
             <Grid container sm={12} className="button">
                 { arrayyear.map(function(name, index){
                     return <Grid className="col-sm-6" lg={5} sm={12} md={5}> <NavLink exact  to={{
-                        pathname: "spac",
+                        pathname: "year",
                         state: {
                             fromNotifications: true
                         }

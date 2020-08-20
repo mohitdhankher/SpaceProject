@@ -37,36 +37,11 @@ export function DashBoardLaunchSuccess(props,{spaceselector}) {
     datainitial:[], dataNotification:null,LandfromNotifications:null
   }
       );
-  // const [datas, setDatas] = useState({spaceselector});
-  // const [dataSele, setDataSele] = useState({spaceselector});
-  // SpaceXData(); window.history.pushState(undefined, undefined, `your/url/${e.target.value}`)
-
   
-
-  // let fetchDatasLanding = async () => {
-  //   debugger;
-  //   let ApiUrl ; //
-  //   if(props.location.state) {
-  //     if (props.location.state.LandfromNotifications === true) {
-  //       ApiUrl = true
-  //     } else if (props.location.state.LandfromNotifications === false) {
-  //       ApiUrl = false
-  //     }
-  //   }
-  //   const responses = await fetch(
-  //
-  //       `https://api.spaceXdata.com/v3/launches?limit=100&launch_success=true&land_success=${ApiUrl}`
-  //   );
-  //   debugger;
-  //   const datas = await responses.json();
-  //   setData({...data,datainitial: datas,dataall: datas});
-  //   // setData({...data,dataall: data});
-  //
-  // };;
   if(props.location.state) {
     const {fromNotifications} = props.location.state;
     let fetchDatas = async () => {
-      debugger;
+    
       let ApiUrl ; // https://api.spaceXdata.com/v3/launches?limit=100&launch_success=true&land_success=true
       if(props.location.state) {
         if (props.location.state.fromNotifications === true) {
@@ -81,7 +56,7 @@ export function DashBoardLaunchSuccess(props,{spaceselector}) {
 
           `https://api.spacexdata.com/v3/launches?limit=100&launch_success=${ApiUrl}`
       );
-      debugger;
+     
       const datas = await responses.json();
       setData({...data,datainitial: datas,dataall: datas});
       // setData({...data,dataall: data});
@@ -90,11 +65,11 @@ export function DashBoardLaunchSuccess(props,{spaceselector}) {
     fetchDatas();
     // setData({...data,dataNotification: fromNotifications})
   }
-  debugger;
+
   useEffect(() => {
 
     let fetchDatas = async () => {
-      debugger;
+      
       let ApiUrl ; // https://api.spaceXdata.com/v3/launches?limit=100&launch_success=true&land_success=true
       if(props.location.state) {
         if (props.location.state.fromNotifications === true) {
@@ -109,7 +84,7 @@ export function DashBoardLaunchSuccess(props,{spaceselector}) {
 
           `https://api.spacexdata.com/v3/launches?limit=100&launch_success=${ApiUrl}`
       );
-      debugger;
+      
       const datas = await responses.json();
       setData({...data,datainitial: datas,dataall: datas});
       // setData({...data,dataall: data});
@@ -122,7 +97,7 @@ export function DashBoardLaunchSuccess(props,{spaceselector}) {
   }, []);
 
   let filteryears = (e)=>{
-    debugger;
+    
     let year = e.target.innerText ;
     let years;
     if(data) {

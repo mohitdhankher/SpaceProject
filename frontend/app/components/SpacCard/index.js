@@ -33,7 +33,7 @@ function SpacCard({item:{mission_name,flight_number,launch_year,launch_success,m
 
        let  land_success = rocket.first_stage.cores[0].land_success
        let url = links.mission_patch
-   debugger;
+   
     const classes = useStyles();
   return (
     <React.Fragment>

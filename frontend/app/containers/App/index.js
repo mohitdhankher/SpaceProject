@@ -21,7 +21,7 @@ export default function App() {
     return (
         <div >
             <Switch>
-                <Route exact path="/spac" component={DashBoardSpac}/>
+                <Route exact path="/year" component={DashBoardSpac}/>
                 <Route exact path="/LaunchSuccess" component={DashBoardLaunchSuccess}/>
                 <Route exact path="/LandingSuccess" component={DashBoardLandingSuccess}/>
             </Switch>

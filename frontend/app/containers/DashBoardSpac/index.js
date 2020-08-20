@@ -31,7 +31,7 @@ import SpacCenterPage from "../../components/SpacCenterPage";
 import './style.css';
 import Card from '@material-ui/core/Card';
 export function DashBoardSpac({SpaceXData,SaveSpaceXData,spaceselector}) {
-debugger;
+
 let storedataaay = spaceselector;
   useInjectReducer({ key: "dashBoardSpac", reducer });
   useInjectSaga({ key: "dashBoardSpac", saga });
@@ -46,63 +46,31 @@ let storedataaay = spaceselector;
     useEffect(() => {   
         // SpaceXData();
         let fetchDatas = async () => {
-            debugger;
+      
 
             const responses = await fetch(
 
                 `https://api.spaceXdata.com/v3/launches?limit=100`
             );
-            debugger;
+      
             const datas = await responses.json();
-            debugger
+     
             setData({...data,datainitial: datas,dataall: datas});
             // setData({...data,dataall: data});
 
         };;
 
             fetchDatas();
-        //     debugger
-        //     setData({...data, datainitial: storedataaay, dataall: storedataaay})
-        // }
-        // setData({...data, datainitial: storedataaay, dataall: storedataaay});
-        // const fetchData = async () => {
-        //
-        //     const response = await fetch(
-        //         `https://api.spaceXdata.com/v3/launches?limit=100`
-        //     );
-        //     const data = await response.json();
-        //     setData({...data,datainitial: data,dataall: data});
-        //     // setData({...data,dataall: data});
-        //
-        // };
-
-        // fetchData();
+       
 
     }, []);
 
 
 
 
-    console.log(data)
-    // useEffect(() => {
-    //
-    //
-    //     const fetchData = async () => {
-    //
-    //         const response = await fetch(
-    //             `https://api.spaceXdata.com/v3/launches?limit=100&launch_success=true`
-    //         );
-    //         const data = await response.json();
-    //         setData({...data,datainitial: data,dataall: data});
-    //         // setData({...data,dataall: data});
-    //
-    //     };
-    //
-    //     fetchData();
-    //
-    // }, []);
+    
     let filteryear = (e)=>{
-        debugger;
+       
         let year = e.target.innerText ;
         let years;
         if(data) {
@@ -119,7 +87,7 @@ let storedataaay = spaceselector;
       <h1>SpaceX Launch Program</h1>
       <Grid container>
           <Grid lg={2} md={6} sm={12} container className="aligns">
-             <Card className="maincard2">
+             <Card className="maincardroi">
               <RoiNavBar filteryear = {filteryear}/>
               </Card>
           </Grid>

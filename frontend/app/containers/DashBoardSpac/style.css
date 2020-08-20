@@ -19,3 +19,11 @@
     background-color:cadetblue !important;
     /* padding: 1vh; */
 }
+.maincardroi{
+    /* overflow: scroll !important; */
+    min-height: 107vh;
+    max-height: 119vh;
+    margin: 1vh !important;
+    background-color:cadetblue !important;
+    /* padding: 1vh; */
+}
