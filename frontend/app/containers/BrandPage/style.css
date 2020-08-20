@@ -1,0 +1,40 @@
+.marginbot{
+    margin-bottom: 20vh;
+    /*margin-top: 5vh;*/
+    padding-left: 15vh;
+}
+.margin2{
+    padding-left: 15vh;
+    /*margin-left: 10vh;*/
+}
+/*.circle{*/
+/*    border-radius: 50%;*/
+/*    height: 30vh;*/
+/*    width: 30vh;*/
+/*    !*border-color: white !important;*!*/
+/*}*/
+.icon-wrapper-bgL {
+    border-radius: 60%;
+    margin-top: 2vh;
+    /*position: absolute;*/
+    height: 90%;
+    width: 62%;
+    margin-right: 65vh;
+    z-index: 3;
+    /*color: white !important;*/
+    /*opacity: .8;*/
+    overflow: hidden;
+}
+.appStyleB{
+    background: #2B2D2F !important
+}
+.headalignB{
+    align-items: center;
+}
+.imgtextB{
+    color: white;
+    text-align: center;
+    font-size: 307%;
+
+
+}

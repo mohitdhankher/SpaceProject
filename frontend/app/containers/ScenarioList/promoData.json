@@ -1,0 +1,30 @@
+{
+  "product": [
+    {
+      "id": 1001,
+      "name": "Scenario 1",
+      "ownership": "Through Model",
+      "stakeholders": "Through Model"
+    },
+    {
+      "id": 1002,
+      "name": "Scenario 2",
+      "ownership": "Through Model",
+      "stakeholders": "Through Model"
+    },
+    {
+      "id": 1003,
+      "name": "Scenario 3",
+      "ownership": "Through Model",
+      "stakeholders": "Through Model"
+
+    },
+    {
+      "id": 1004,
+      "name": "Scenario 4",
+      "ownership": "Through Model",
+      "stakeholders": "Through Model"
+
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "product": [
+    {
+      "id": 1001,
+      "Ranking": 1,
+      "name": "Scenario 1",
+      "ownership": "Through Model",
+      "stakeholders": "Through Model"
+    },
+    {
+      "id": 1002,
+      "Ranking": 2,
+      "name": "Scenario 2",
+      "ownership": "Through Model",
+      "stakeholders": "Through Model"
+    },
+    {
+      "id": 1003,
+      "Ranking": 3,
+      "name": "Scenario 3",
+      "ownership": "Through Model",
+      "stakeholders": "Through Model"
+
+    },
+    {
+      "id": 1004,
+      "Ranking": 4,
+      "name": "Scenario 4",
+      "ownership": "Through Model",
+      "stakeholders": "Through Model"
+
+    }
+  ]
+}

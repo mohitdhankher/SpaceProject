@@ -1,0 +1,12 @@
+.dropdownC {
+    /*margin: 20px auto;*/
+    width: 155px;
+    height: 4vh;
+    position: relative;
+    perspective: 800px;
+    border-radius: 5px;
+}
+.centerDrop {
+    margin-top: 1%;
+    text-align: center;
+}

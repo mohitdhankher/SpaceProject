@@ -1,0 +1,102 @@
+.cardMin{
+    min-height: 30vh;
+    width: 64vh;
+}
+.cardMinCircle{
+    min-height: 18vh;
+    width: 54vh;
+    margin-left: -1vh;
+}
+
+.line1{
+    margin-left: 44vh;
+}
+.iconCla{
+    /*margin: 2vh;*/
+    padding-top: 4vh;
+
+    /*margin-top: 4vh;*/
+    /*margin-top: 26vh;*/
+}
+iconSizeB{
+    width:280px !important; ;
+    height:100px !important;
+    /*width={130} height={60}*/
+}
+
+.appStyleJ{
+    background: #2B2D2F !important
+}
+.header{
+    font-family: cursive;
+    font-size: 5vh;
+    text-align: center;
+    /*width: 46vh;*/
+    text-align: center;
+    justify-content: space-between;
+    /*margin-left: 71vh;*/
+
+}
+.imgmargin{
+    /*margin-right: 3vh;*/
+}
+.imgmarginH{
+    /*margin-right: 56vh;*/
+    margin-left: 6vh;
+}
+
+
+
+.textJ{
+    font-family: cursive;
+    font-size: 5vh;
+
+}
+.bg-primary {
+    /*background-color: #28a745 !important;*/
+    background-color: white !important;
+}
+
+.imgtext{
+    color: white;
+    /*margin-left: 29vh;*/
+    font-size: 307%;
+    padding-left: 4%;
+
+
+}
+.text-primary {
+    /*color: #033C73 !important;*/
+}
+
+.boxh {
+    background: white;
+    height: 35vh;
+    text-align: -webkit-center;
+    padding-top: 6vh;
+    font-size: 8vh;
+    font-family: cursive;
+}
+.textfon{
+    font-size: 202%;
+    margin-top: 6vh;
+    color: #0000a0;
+}
+.Landingcar{
+    margin: 3vh;
+    min-height: 54vh;
+    background-color: white;
+
+}
+.headalign{
+    align-items: center;
+}
+.bakground{
+    background-color: lightgrey;
+    min-height: 100vh;
+}
+.substext{
+    text-align: center;
+    margin-top: 1vh;
+    padding: 1vh;
+}

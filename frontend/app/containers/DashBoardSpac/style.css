@@ -1,0 +1,21 @@
+/*.col-container {*/
+/*    display: flex;*/
+/*    !*width: 100%;*!*/
+/*}*/
+.aligns{
+    text-align: center;
+}
+
+.maincard{
+    min-height: 97vh !important;
+    margin: 2vh !important;
+    background-color: ghostwhite !important;
+}
+.maincard2{
+    overflow: scroll !important;
+    min-height: 107vh;
+    max-height: 119vh;
+    margin: 1vh !important;
+    background-color:cadetblue !important;
+    /* padding: 1vh; */
+}

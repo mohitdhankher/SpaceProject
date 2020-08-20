@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'MarsCentra-Book';
+    src: url(../../fonts/MarsCentra-Book.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MarsCentra-Bold';
+    src: url(../../fonts/MarsCentra-Bold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MarsCentra-Extrabold';
+    src: url(../../fonts/MarsCentra-Extrabold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

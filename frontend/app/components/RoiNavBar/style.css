@@ -1,0 +1,59 @@
+.colorTab {
+    color: white;
+}
+.logoA {
+    margin-left: auto;
+}
+.headerD {
+    background: #2B2D2F !important;
+}
+.active{
+    color: white !important;
+    /*margin-left: 10% !important;*/
+    font-weight: 600;
+    font-size: x-large;
+
+}
+.alignHome{
+    margin-left:1%;
+    color:darkgray;
+}
+.alignElastic{
+    margin-left:1%;
+    color:darkgray;
+}
+.alignGap{
+    margin-left:1%;
+    color:darkgray;
+}
+.alignThreshold{
+    margin-left:1%;
+    color:darkgray;
+}
+.alignDemand{
+    margin-left:1%;
+    color:darkgray;
+
+}
+.alignPost {
+    margin-left:1%;
+    color:darkgray;
+}
+.navColor {
+    /*background-color: #2B2D2F;*/
+    height: 7vh;
+    width:100%
+}
+.alignLogo {
+    text-align: end;
+}
+.button{
+    justify-content: space-evenly;
+}
+.buttoncolor{
+    background-color: greenyellow !important;
+    margin: 2vh !important;
+}
+.padCh{
+    padding-right: 4vh;
+}

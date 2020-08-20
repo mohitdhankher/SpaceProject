@@ -1,0 +1,104 @@
+.header-class{
+    background: #F5F5F5;
+    font-size: 15px;
+    /*color:white;*/
+    height: 20px;
+    border: 0px;
+}
+.space{
+    align-items: center;
+    /*display: flex;*/
+    justify-content: space-between;
+    background-color: #009688;
+}
+.boxhead{
+    /*border-bottom: 0.08cm solid gray;*/
+    border: 0.08cm solid gray;
+    background-color: #096dd9;
+    color: white;
+    font-size: 15px;
+    height: 20px;
+    width: 20%;
+}
+.page-item.active .page-link {
+
+    /*color: #fff;*/
+    background-color: #6c757d;
+    border-color: #007bff;
+    /* padding: 5px; */
+    /* margin-right: 1px; */
+}
+
+/*@media only screen and (max-width: 1060px) {*/
+/*    .overflowDiv { overflow: auto; } !* Or change the height or whatever *!*/
+/*}*/
+.linkdata{
+    text-decoration-line: underline;
+    padding-left: 2%;
+}
+.headerAlign {
+    margin-top: 1%;
+    color:#0000a0;
+    font-family: 'Noto Sans V2';
+
+    /*margin-top: 1%;*/
+    color: black;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -5px;
+    margin-bottom: 10px;
+}
+.styleSearch {
+    margin-left: 40%;
+}
+.styleWords {
+    margin: 2%;
+}
+
+.background{
+    background-color: #303030;
+}
+.svgsize {
+    font-size: 1.3rem;
+}
+
+.bootFont {
+    font-family: "Noto Sans V2";
+}
+
+.tableSpace {
+    border-collapse: separate;
+    border-spacing: 0 7px;
+    width: 100%;
+}
+
+.compareAlign {
+    margin-top: 2%;
+    padding-left: 30%;
+    text-align: center;
+
+}
+.dropSize {
+    width: 150px !important;
+    height: 4vh;
+    position: relative;
+    perspective: 800px;
+    border-radius: 5px;
+}
+.predictMargin{
+    margin: 2% !important;
+    padding-left: 2%;
+    text-align: center;
+}
+.resulalign{
+    text-align: center !important;
+    /*padding-bottom: 1%;*/
+    /*text-align: right;*/
+    padding-left: 4%;
+    margin-left: 5%;
+
+}
+.spaceBetween {
+    padding-bottom: 4%;
+}

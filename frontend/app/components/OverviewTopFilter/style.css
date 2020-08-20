@@ -1,0 +1,27 @@
+.overview_page_button{
+    color: #ffffff;
+    background-color: #0000a0;
+    font-family: 'MarsCentra-Book';
+    font-size: 18px;
+    width: 150px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 60px;
+}
+
+.overview_page_button:hover, .overview_page_button:focus, .overview_page_button:active, .overview_page_button.active{
+    color: white;
+    background-color: #00d7b9;
+    border-color: #0000a0; /*set the color you want here*/
+}
+.sizing{
+    margin: 1.5% 1%;
+    max-height: 33px;
+    font-size: 12px
+}
+
+.card{
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #fff
+}

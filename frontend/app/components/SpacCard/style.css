@@ -1,0 +1,14 @@
+/*.col-container {*/
+/*    display: table; !* Make the container element behave like a table *!*/
+/*    width: 100%; !* Set full-width to expand the whole page *!*/
+/*}*/
+
+.col{
+    padding: 1vh;
+}
+.car{
+    /* min-height: 38.5vh; */
+    margin: 1vh;
+    align-items: stretch;
+
+}

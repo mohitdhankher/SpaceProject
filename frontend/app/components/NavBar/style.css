@@ -1,0 +1,25 @@
+
+.MuiToolbar-regular {
+    min-height: 50px;
+}
+
+.MuiInput-underline:after {
+    border: none;
+}
+
+.MuiSelect-select {
+    border: 1px solid lightslategrey;
+    border-radius: 2px;
+}
+
+label {
+    margin-bottom: 0px;
+}
+
+.Mui-focused {
+    border-color : black;
+}
+
+.MuiOutlinedInput-notchedOutline {
+    border-color : black;
+}

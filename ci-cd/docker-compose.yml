@@ -1,0 +1,28 @@
+#source path and target file should be converted to variables before running docker-compose need to place codes and docker-mount (need to find a way to eliminate this step) command to run
+#docker stack : docker stack deploy --compose-file docker-compose.yml <stack_name>
+version: "3.0"
+services:
+  #cmos_germany_ui
+  ui_master:
+    image: node:10.14.1
+#    networks:
+#      - traefik_public
+    volumes:
+       - ../frontend:/home/docker/code/app
+    command: /bin/sh -c 'cd home/docker/code/app && npm install && npm start'
+    ports:
+      - 3007:3000
+
+  #cmos_germany_middleware
+  middleware:
+    image: node:10.14.1
+    volumes:
+      - ../middleware:/home/docker/code/app
+    command: /bin/sh -c 'cd home/docker/code/app && npm install && node index.js'
+    #    command: /bin/sh -c 'cd home/docker/code/app && chmod 777 -R /home/docker/code/app && npm install && npm run build && npm run start:prod'
+    ports:
+      - 4002:4001
+
+#networks:
+#  traefik_public:
+#    external: true
